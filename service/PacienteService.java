@@ -26,7 +26,7 @@ public class PacienteService {
     }
 
     public List<Paciente> listarPacientesOrdenados() {
-        List<Paciente> lista = repositorio.slistarTodos();
+        List<Paciente> lista = repositorio.listarTodos();
         Collections.sort(lista);
         return lista;
     }
