@@ -1,12 +1,11 @@
 package controller;
 
-import model.TipoAtendimento;
+import enums.TipoAtendimento;
 import model.Paciente; // Adicionado para exibirPacientes
 import service.PacienteService;
 
 import java.util.List; // Adicionado para exibirPacientes
 import java.util.Scanner;
-import java.util.InputMismatchException; // Para tratar erro de tipo
 
 public class PacienteController {
     private final PacienteService service;

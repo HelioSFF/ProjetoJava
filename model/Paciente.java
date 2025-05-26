@@ -1,5 +1,7 @@
 package model;
 
+import enums.TipoAtendimento;
+
 import java.time.LocalDate;
 
 public class Paciente implements Comparable<Paciente> {

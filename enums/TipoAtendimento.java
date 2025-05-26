@@ -1,4 +1,4 @@
-package model;
+package enums;
 
 public enum TipoAtendimento {
     REGULAR(1),

@@ -1,7 +1,7 @@
 package service;
 
 import model.Paciente;
-import model.TipoAtendimento;
+import enums.TipoAtendimento;
 import repository.IPacienteRepository;
 
 import java.time.LocalDate;
@@ -26,7 +26,7 @@ public class PacienteService {
     }
 
     public List<Paciente> listarPacientesOrdenados() {
-        List<Paciente> lista = repositorio.listarTodos();
+        List<Paciente> lista = repositorio.slistarTodos();
         Collections.sort(lista);
         return lista;
     }

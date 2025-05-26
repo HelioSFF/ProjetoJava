@@ -1,7 +1,7 @@
 package view;
 
 import model.Paciente;
-import model.TipoAtendimento;
+import enums.TipoAtendimento;
 import service.PacienteService;
 import repository.PacienteRepositoryMemoria;
 
